@@ -191,7 +191,7 @@ function download () {
 
   var element = d.createElement('a')
   element.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(list)
-  element.download = moment().format('YYYYMMDDTHHmmssZZ') + '_ExportTabsURLs.txt'
+  element.download = moment().format('YYYYMMDDTHHmmssZZ') + '_ExportTabsURLs.tabs'
   element.style.display = 'none'
 
   d.body.appendChild(element)
