@@ -11,16 +11,16 @@
     },
     "browser_action": {
         "browser_style": true,
-        "default_icon": "img/icon.svg",
+        "default_icon": "img/icon_dark-theme.png",
         "default_title": "__MSG_appButtonDesc__",
         "default_popup": "popup/popup.html",
         "theme_icons": [{
-            "light": "img/icon_dark-theme.svg",
-            "dark": "img/icon.svg",
+            "light": "img/icon_dark-theme.png",
+            "dark": "img/icon.png",
             "size": 16
         }, {
-            "light": "img/icon_dark-theme.svg",
-            "dark": "img/icon.svg",
+            "light": "img/icon_dark-theme.png",
+            "dark": "img/icon.png",
             "size": 32
         }]
     },
