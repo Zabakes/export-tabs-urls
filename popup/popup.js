@@ -70,7 +70,7 @@ w.addEventListener('load', function () {
 
 function updatePopup () {
   browser.tabs.query(
-    {},
+    {currentWindow : true},
     function (tabs) {
       var list = ''
       var header = ''
